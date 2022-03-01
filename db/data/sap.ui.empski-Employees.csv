@@ -1,0 +1,5 @@
+empID;name;department;title;role;industry;directReport;email
+A001;Rama;Solutions;Senior Developer;Fiori developer;Tech;Ethan;abc@xyz.com
+A002;Ethan;Solutions;Director;Manager;Tech;Luke;ethan.jewett@mc.com
+A003;Katherine;Soluions;UX Developer;Associate Developer;Tech;Ethan;Kath.daught@mc.com
+A004;Curtis;Solutions;UX Developer;Associate Developer;Tech;Ethan;curtis@mc.com
