@@ -1,0 +1,1 @@
+using EmpSkiService as service from '../../srv/empski_service';

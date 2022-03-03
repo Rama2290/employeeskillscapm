@@ -10,10 +10,13 @@
     "express": "^4"
   },
   "devDependencies": {
+    "@sap/ux-specification": "^1.96.4",
     "sqlite3": "^5.0.2"
   },
   "scripts": {
-    "start": "cds run"
+    "start": "cds run",
+    "watch-empski": "cds watch --open empski/webapp/index.html?sap-ui-xx-viewCache=false#fe-lrop-v4",
+    "watch-empski2": "cds watch --open empski2/webapp/index.html?sap-ui-xx-viewCache=false#fe-lrop-v4"
   },
   "eslintConfig": {
     "extends": "eslint:recommended",
@@ -39,5 +42,9 @@
       "no-console": "off",
       "require-atomic-updates": "off"
     }
-  }
+  },
+  "sapux": [
+    "app/empski",
+    "app/empski2"
+  ]
 }
